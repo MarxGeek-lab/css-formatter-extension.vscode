@@ -31,11 +31,13 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
-    "test": "node ./out/test/runTest.js"
+    "test": "node ./out/test/runTest.js",
+    "sort-css-properties": "node ./extension"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.2",
     "@types/node": "18.x",
+    "@types/postcss-sorting": "^8.0.1",
     "@types/vscode": "^1.83.0",
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
@@ -46,5 +48,9 @@
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "postcss-cli": "^10.1.0",
+    "postcss-sorting": "^8.0.2"
   }
 }

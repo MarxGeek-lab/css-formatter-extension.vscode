@@ -1,0 +1,10 @@
+{
+    "name": "css-scss-sorter",
+    "displayName": "CSS/SCSS Sorter",
+    "description": "Sort CSS/SCSS properties alphabetically using PostCSS",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "icon": "images/icon.png"
+}
